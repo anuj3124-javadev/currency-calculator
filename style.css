@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Animated Text */
+.animated-text {
+    font-weight: 700;
+    color: #fff;
+    animation: fadeIn 2s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
+
+/* Card Styles */
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+/* Button Animation */
+#convertBtn {
+    background-color: #007bff;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#convertBtn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Result Box */
+#result {
+    font-size: 1.2rem;
+    color: #28a745;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
